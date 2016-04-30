@@ -31,7 +31,6 @@
         "actors": {
             "type": "string",
             "index": "not_analyzed",
-            "display": "array",
             "store": true
         },
         "permalink": {
@@ -41,7 +40,6 @@
         },
         "tags": {
             "type": "string",
-            "display": "array",
             "index": "not_analyzed",
             "store": true
         },
