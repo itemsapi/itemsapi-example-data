@@ -21,7 +21,8 @@
             "store": true
         },
         "country_icon": {
-            "type": "string"
+            "type": "string",
+            "display": "image"
         },
         "rating": {
             "type": "float"
@@ -88,7 +89,12 @@
                 },
                 {
                     "gte": 500,
-                    "name": "> 2000"
+                    "lte": 1000,
+                    "name": "500 - 1000"
+                },
+                {
+                    "gte": 500,
+                    "name": "> 1000"
                 }
             ],
             "unit": "km",
@@ -100,28 +106,18 @@
             "title": "Rating",
             "ranges": [
                 {
-                    "lte": 1,
-                    "name": "0 - 1"
-                },
-                {
-                    "gte": 1,
                     "lte": 2,
                     "name": "1 - 2"
                 },
                 {
-                    "gte": 2,
                     "lte": 3,
+                    "gte": 2,
                     "name": "2 - 3"
                 },
                 {
                     "gte": 3,
                     "lte": 4,
                     "name": "3 - 4"
-                },
-                {
-                    "gte": 4,
-                    "lte": 5,
-                    "name": "4 - 5"
                 },
                 {
                     "gte": 4,
