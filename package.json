@@ -1,0 +1,30 @@
+{
+  "name": "itemsapi-example-data",
+  "version": "1.0.0",
+  "description": "Example JSON data for ItemsAPI demos and tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itemsapi/itemsapi-example-data.git"
+  },
+  "keywords": [
+    "demo",
+    "tutoriar",
+    "itemsapi",
+    "json"
+  ],
+  "author": "Mateusz Rzepa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itemsapi/itemsapi-example-data/issues"
+  },
+  "homepage": "https://github.com/itemsapi/itemsapi-example-data#readme",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "faker": "^3.1.0",
+    "lodash": "^4.11.2"
+  }
+}
