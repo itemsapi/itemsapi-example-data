@@ -19,7 +19,7 @@ fs.readFileAsync('items/cities.json')
   return _.pick(res, ['geo', 'city', 'country_icon', 'country'])
 })
 .map(function(res) {
-  var name = faker.address.streetName() + ' Hotel';
+  var name = faker.address.streetName() + ' Restaurant';
   var rating = faker.random.number({
     min: 250,
     max: 500
