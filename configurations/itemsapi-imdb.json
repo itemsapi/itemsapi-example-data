@@ -3,11 +3,11 @@
   "aggregations": {
     "year": {
       "size": 10,
-      "conjunction": true
+      "conjunction": false
     },
     "genres": {
       "size": 10,
-      "conjunction": false
+      "conjunction": true
     },
     "tags": {
       "size": 10,
